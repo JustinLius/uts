@@ -1,0 +1,112 @@
+* {padding: 0; margin: 0;}
+
+.container {width: 100%; margin: auto;}
+menu {overflow: hidden; position: fixed;  background: white; width: 100%; z-index: 2; font-family: arial;}
+menu .kiri {float: left; padding: 20px;}
+menu .tengah {float: left; padding: 20px; margin-top: 10px;  height: 40px; line-height: 30px; margin-left: 20px;}
+
+menu .tengah ul li {float: left; list-style: none; background: white;}
+menu .tengah ul li a {text-decoration: none; color: black; padding: 10px; font-size: 16px; margin-left: 15px;}
+menu .tengah ul li ul {display: none; position: fixed;}
+menu .tengah ul li:hover > ul {display: block;}
+menu .tengah ul li ul li {float: none; position: relative; top: 35px; width: 180px; left: 15px;} 
+menu ul li:hover {background: white;} 
+menu ul li a:hover {color: #ffeaa7; transition-duration: 0.5s;} 
+
+menu .kanan {margin-top: 35px; float: right; margin-right : 130px;}
+nav ul li {list-style: none; float: left; }
+.telepon {margin-right: 10px;}
+menu .kanan img {width: 20px; height: 20px; margin-left: 20px; background: transparent;}
+.search {position: relative; left: 50px; background-color: aqua;}
+
+article .alam img {width: 100%; height: 700px; z-index: -1;}
+article .alam .hruf {z-index: 1; position:absolute; bottom: 200px; float: left; margin-left: 320px;} 
+article .alam .hruf h1 {font-size: 150px; color: white; font-family: "Brush Script MT";}
+article .alam .hruf p {font-size: 18px; color: white; font-family: Arial; margin-left: 140px;}
+
+.form {float: left; background: #130f40; padding: 50px 0 30px 0; width: 100%; overflow: hidden;}
+.form .form1 {float: left; margin-left: 90px; margin-right: 10px; color: white; font-size: 20px; font-family: sans-serif;}
+.form .form1 label {display: block; line-height: 30px;}
+.form .form2 input {margin: 2px; line-height: 26px;}
+.form .form2 input.inputText {width: 200px; padding: 3px 18px 3px 10px; font-size: 16px; margin-right: 10px; background: transparent;
+border: 0.5px solid white; border-radius: 5px;}
+
+.form .form2 select {width: 180px; line-height: 26px; padding: 7px 18px 7px 10px; margin: 2px; font-size: 16px; margin-right: 10px; 
+background: #130f40; color: white; border: 0.5px solid white; border-radius: 5px;}
+.form .form2 button[type=button] {padding: 12px 13px 9px 13px; width: 100px; color: white; background-color: red; font-size: 15px;
+border: 0.5px solid #130f40; border-radius: 5px;}
+.form .form2 button[type=button]:hover {color: white;
+background-color: #4bcffa; transition: background 0.2s ease-in-out;}
+
+.artikel1 {overflow: hidden; margin-top: 250px;}
+.artikel1 .kiri {float: left; margin-right: 30px; width: 100px; margin-left: 40px;}
+.artikel1 .kiri h4 {font-size: 21px; width: 150px; margin-bottom: 30px; font-family: "Rubik",sans-serif;}
+.artikel1 .kiri form {border: 1px solid silver; width: 400px; border-radius: 5px;}
+.artikel1 .kiri form #nama {margin-top: 30px; width: 325px; margin-left: 40px; font-size: 20px; font-family: arial; color: silver;
+padding: 10px 0 10px 0;}
+.artikel1 .kiri form #travel {margin-top: 20px; width: 325px; margin-left: 40px; font-size: 20px; font-family: arial; color: silver;
+padding: 10px 0 10px 0;}
+.artikel1 .kiri form a {text-decoration: none;}
+.artikel1 .kiri form p {margin-top: 50px; text-align: center; background: #c44569; width: 300px; margin-left: 40px; 
+padding: 12px; margin-bottom: 40px; color: white; border-radius: 4px;}
+.artikel1 .kiri form p:hover {background: #4bcffa; transition-duration: 0.5s;}
+
+.artikel1 .kanan {overflow: hidden; margin-left: 450px; margin-bottom: 50px;}
+.artikel1 .kanan .foto2 {width: 350px; float: left; margin-left: 50px; position: relative; margin-bottom: 40px; bottom: 20px;}
+.artikel1 .kanan .foto2 img {width: 320px; height: 200px; margin-top: 30px; border-radius: 5px;}
+.artikel1 .kanan .foto2 img:hover {opacity: 0.8;}
+.artikel1 .kanan .foto2 .tempat a{text-decoration: none; color: black; font-family: "Rubik",sans-serif; 
+font-size: 25px;}
+.artikel1 .kanan .foto2:hover .tempat a{color: #c44569; transition-duration: 0.5s;}
+.artikel1 .kanan .foto2 .harga a{text-decoration: none; color: white; width: 22%; height: auto;
+background: #63cdda; border-radius: 45px; text-align: center; font-family: "Rubik",sans-serif; 
+font-size: 18px; padding: 7px 0 7px 0; position: absolute; bottom: 70%; left: 6%;}
+.artikel1 .kanan .foto2:hover .harga a {background:  #c44569; transition-duration: 0.5s;}
+.artikel1 .kanan .foto2 .negara {color: silver; font-size: 16px; font-family: "Rubik",sans-serif; 
+font-size: 16px;}
+
+.artikel1 .kanan .more h2 {font-family: "Rubik",sans-serif; margin-right: 310px; float: right; margin-top: 50px; font-size: 17px; background: red; 
+padding: 15px 40px 15px 40px; color: white; border-radius: 5px;}    
+.artikel1 .kanan .more h2:hover {background: #4bcffa; transition-duration: 0.5s;}
+
+.formsubs {float: left; background: #130f40; margin-top: 140px; width: 100%; overflow: hidden; margin-bottom: 150px; padding: 50px 0 50px 0;}
+.formsubs h1{float: left; margin-left: 200px; color: white; font-size: 20px; font-family: "Rubik",sans-serif;
+line-height: 30px;}
+.formsubs .label1 {float: left; margin-left: 200px; margin-right: 50px; color: white; font-size: 15px; font-family: "Rubik",sans-serif;
+display: block; line-height: 30px; width: 300px;}
+.formsubs .label1 label {display: block; line-height: 30px;}
+.formsubs .label2 input {margin: 2px; line-height: 26px;}
+.formsubs .label2 input.Text {width: 400px; padding: 6px 18px 8px 10px; font-size: 16px; margin-right: 10px; background: white;
+border: 0.5px solid white; border-radius: 5px;}
+.formsubs .label2 button[type=button] {padding: 12px 13px 9px 13px; width: 100px; color: white; background-color: red; font-size: 15px;
+border: 0.5px solid #130f40; border-radius: 5px;}
+.formsubs .label2 button[type=button]:hover {color: white; background-color: #4bcffa; transition: background 0.2s ease-in-out;}
+
+.trips {margin-left: 560px; margin-top: 150px; font-family: "Rubik",sans-serif;}
+.foto3 {width: 350px; float: left; margin-left: 60px; position: relative;}
+.foto3 img {width: 350px; height: 200px; margin-top: 30px; border-radius: 5px;}
+.foto3:hover .judul{color: #c44569; transition-duration: 0.5s;}
+.foto3 .tanggal {float: left; font-family: "Rubik",sans-serif; font-size: 12px; color: gray; margin-top: 4px;}
+.foto3 .judul {float: left; font-size: 24px; text-align: left; font-family: "Rubik",sans-serif; margin-top: 4px;}
+
+footer {overflow: hidden; margin-top: 500px; width: 100%; font-family: "Rubik",sans-serif; background-color: #130f40; }
+footer .atas {margin-bottom: 420px; margin-top: 20px;} 
+footer .atas .kiri {float: left; margin-left: 100px; margin-top: 75px;}
+footer .atas .kiri p {width: 220px; text-align: left; margin-top: 35px; color: silver; font-size: 17px;}
+footer .atas .kiri .kiribawah img{width: 20px; height: 20px; margin-top: 40px; margin-left: 20px; background: transparent; margin-bottom: 100px;}
+footer .atas .tengah1 {float: left; margin-left: 150px; margin-top: 85px;}
+footer .atas .tengah1 h3 {color: white; margin-bottom: 10px;}
+footer .atas .tengah1 a {color: silver;  text-decoration: none;}
+footer .atas .tengah1 a:hover {color: #c44569;}
+footer .atas .tengah2 {float: left; margin-left: 80px; margin-top: 85px;}
+footer .atas .tengah2 h3 {color: white; margin-bottom: 10px;}
+footer .atas .tengah2 a {color: silver;  text-decoration: none;}
+footer .atas .tengah2 a:hover {color: #c44569;}
+footer .atas .kanan {margin-top: 85px; width: 350px; float: right; margin-right: 54px; position: relative; margin-bottom: 50px;}
+footer .atas .kanan h3 {float: right; color: white; margin-right: 240px; margin-bottom: 40px; }
+footer .atas .kanan img {width: 80px; height: 80px; border-radius: 5px; margin: 5px; margin-left: 18px; } 
+
+footer .bawah {float: left; overflow: hidden; color: gray; margin-left: 350px; border-top: 1px solid gray;  
+margin-bottom: 20px;}
+footer .bawah p {margin-top: 20px;}
+footer .bawah a {text-decoration: none; color: red;}  

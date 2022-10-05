@@ -1,0 +1,97 @@
+* {padding: 0; margin: 0;}
+
+.container {width: 100%; margin: auto;}
+menu {overflow: hidden; position: fixed;  background: white; width: 100%; z-index: 2; font-family: arial;}
+menu .kiri {float: left; padding: 20px;}
+menu .tengah {float: left; padding: 20px; margin-top: 10px;  height: 40px; line-height: 30px; margin-left: 20px;}
+
+menu .tengah ul li {float: left; list-style: none; background: white;}
+menu .tengah ul li a {text-decoration: none; color: black; padding: 10px; font-size: 16px; margin-left: 15px;}
+menu .tengah ul li ul {display: none; position: fixed;}
+menu .tengah ul li:hover > ul {display: block;}
+menu .tengah ul li ul li {float: none; position: relative; top: 35px; width: 180px; left: 15px;} 
+menu ul li:hover {background: white;} 
+menu ul li a:hover {color: #ffeaa7; transition-duration: 0.5s;} 
+
+menu .kanan {margin-top: 35px; float: right; margin-right : 130px;}
+nav ul li {list-style: none; float: left; }
+.telepon {margin-right: 10px;}
+menu .kanan img {width: 20px; height: 20px; margin-left: 20px; background: transparent;}
+.search {position: relative; left: 50px; background-color: aqua;}
+
+article .alam img {width: 100%; height: 700px; z-index: -1;}
+article .alam .hruf {z-index: 1; position:absolute; bottom: 200px; float: left; margin-left: 250px;} 
+article .alam .hruf h1 {font-size: 150px; color: white; font-family: "Brush Script MT"; }
+article .alam .hruf p {font-size: 18px; color: white; font-family: Arial; margin-left: 180px;}
+
+.artikel1 {margin-top: 100px; font-family: "Rubik",sans-serif; } 
+.artikel1 h1 {margin-left: 260px; font-size: 28px; }
+.artikel1 .p1 {margin-top: 40px; margin-left: 260px; text-align: justify; width: 720px;}
+.artikel1 .p2 {margin-top: 20px; margin-left: 260px; text-align: justify; width: 720px;}
+
+.artikel1 h4 {margin-left: 260px; margin-top: 30px;}
+.artikel1 p {margin-left: 260px; margin-top: 15px; width: 720px; text-align: justify;}
+
+.artikel2 {margin-top: 50px; width: 750px; margin-left: 260px; font-family: "Rubik",sans-serif;}
+.artikel2 h2 {margin-bottom: 20px;}
+.artikel2 input {margin: 2px; line-height: 26px;}
+.artikel2 input.inputText {width: 320px; padding: 3px 18px 3px 14px; font-size: 16px; margin-right: 10px; background: transparent;
+border: 0.5px solid silver; border-radius: 5px; margin-bottom: 20px; background: rgba(255, 231, 251, 0.858);}
+.artikel2 textarea {display: block; border: 0.5px solid silver; border-radius: 5px; margin-bottom: 20px; padding-right: 3px;
+background: rgba(255, 231, 251, 0.858);}
+.artikel2 form a {text-decoration: none;}
+.artikel2 form p {margin-top: 20px; text-align: center;  background: #c44569; width: 320px; 
+padding: 12px 205px 12px 203px; margin-bottom: 40px; color: white; border-radius: 4px;}
+.artikel2 form p:hover {background: #4bcffa; transition-duration: 0.5s;}
+
+.formsubs {float: left; background: #130f40; margin-top: 140px; width: 100%; overflow: hidden; margin-bottom: 150px; padding: 40px 0 40px 0;}
+.formsubs h1{float: left; margin-left: 200px; color: white; font-size: 20px; font-family: "Rubik",sans-serif;
+line-height: 30px;}
+.formsubs .label1 {float: left; margin-left: 200px; margin-right: 50px; color: white; font-size: 15px; font-family: "Rubik",sans-serif;
+display: block; line-height: 30px; width: 300px;}
+.formsubs .label1 label {display: block; line-height: 30px;}
+.formsubs .label2 input {margin: 2px; line-height: 26px;}
+.formsubs .label2 input.Text {width: 400px; padding: 6px 18px 8px 10px; font-size: 16px; margin-right: 10px; background: white;
+border: 0.5px solid white; border-radius: 5px;}
+.formsubs .label2 button[type=button] {padding: 12px 13px 9px 13px; width: 100px; color: white; background-color: red; font-size: 15px;
+border: 0.5px solid #130f40; border-radius: 5px;}
+.formsubs .label2 button[type=button]:hover {color: white; background-color: #4bcffa; transition-duration: 0.5s;}
+
+.places {text-align: center;}
+.places h1 {margin-top: 300px; font-family: "Rubik",sans-serif; font-size: 30px; line-height: 36px;}
+
+.foto2 {width: 350px; float: left; margin-left: 65px; position: relative; margin-bottom: 50px;}
+.foto2 img {width: 320px; height: 200px; margin-top: 30px; border-radius: 5px;}
+.foto2 img:hover {opacity: 0.8;}
+.foto2 .tempat a{text-decoration: none; color: black; font-family: "Rubik",sans-serif; 
+font-size: 25px;}
+.foto2:hover .tempat a{color: #c44569; transition-duration: 0.5s;}
+.foto2 .harga a{text-decoration: none; color: white; width: 22%; height: auto;
+background: #63cdda; border-radius: 45px; text-align: center; font-family: "Rubik",sans-serif; 
+font-size: 18px; padding: 7px 0 7px 0; position: absolute; bottom: 70%; left: 6%;}
+.foto2:hover .harga a {background:  #c44569; transition-duration: 0.5s;}
+.foto2 .negara {color: silver; font-size: 16px; font-family: "Rubik",sans-serif; 
+font-size: 16px;}
+
+footer {overflow: hidden; margin-top: 500px; width: 100%; font-family: "Rubik",sans-serif; background-color: #130f40; }
+footer .atas {margin-bottom: 420px; margin-top: 20px;} 
+footer .atas .kiri {float: left; margin-left: 100px; margin-top: 75px;}
+footer .atas .kiri p {width: 220px; text-align: left; margin-top: 35px; color: silver; font-size: 17px;}
+footer .atas .kiri .kiribawah img{width: 20px; height: 20px; margin-top: 40px; margin-left: 20px; background: transparent; margin-bottom: 100px;}
+footer .atas .tengah1 {float: left; margin-left: 150px; margin-top: 85px;}
+footer .atas .tengah1 h3 {color: white; margin-bottom: 10px;}
+footer .atas .tengah1 a {color: silver;  text-decoration: none;}
+footer .atas .tengah1 a:hover {color: #c44569;}
+footer .atas .tengah2 {float: left; margin-left: 80px; margin-top: 85px;}
+footer .atas .tengah2 h3 {color: white; margin-bottom: 10px;}
+footer .atas .tengah2 a {color: silver;  text-decoration: none;}
+footer .atas .tengah2 a:hover {color: #c44569;}
+footer .atas .kanan {margin-top: 85px; width: 350px; float: right; margin-right: 54px; position: relative; margin-bottom: 50px;}
+footer .atas .kanan h3 {float: right; color: white; margin-right: 240px; margin-bottom: 40px; }
+footer .atas .kanan img {width: 80px; height: 80px; border-radius: 5px; margin: 5px; margin-left: 18px; } 
+
+footer .bawah {float: left; overflow: hidden; color: gray; margin-left: 350px; border-top: 1px solid gray;  
+margin-bottom: 20px;}
+footer .bawah p {margin-top: 20px;}
+footer .bawah a {text-decoration: none; color: red;}
+
